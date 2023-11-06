@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+:root {
+  --background-primary: #152c39;
+  --darkgrey: #212125;
+  --TabOff: #91a7b7;
+  --Accent_Blue100: #72acf1;
+  --Accent_Blue200: #3e8eed;
+}
+
+html {
+  color-scheme: dark;
+  font-family: "Open Sans", sans-serif;
+  color: var(--Accent_Blue100);
+}
+
+body {
+  background-color: var(--background-primary);
+  width: 97%;
+  margin: 1rem auto;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color: var(--TabOff);
+  padding-bottom: 2rem;
+}
+
+.subcontent,
+a {
+  font-size: 24px;
+  color: var(--TabOff);
+  text-decoration: none !important;
+}
+
+.innerlist > li {
+  margin-left: 2rem;
+}
